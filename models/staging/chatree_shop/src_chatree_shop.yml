@@ -1,0 +1,12 @@
+# ห้ามลืมใส่ version 2
+
+version: 2
+
+sources:
+  - name: chatree_shop
+    database: raw
+    schema: chatree_shop
+    tables:
+      - name: customers
+      - name: orders
+
