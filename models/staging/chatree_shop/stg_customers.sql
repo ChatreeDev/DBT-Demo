@@ -4,3 +4,4 @@ select
     last_name
 
 from {{ source('chatree_shop', 'customers') }}
+

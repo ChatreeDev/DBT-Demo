@@ -6,5 +6,3 @@ select
     status
 
 from {{ source('chatree_shop', 'orders') }}
-
-
